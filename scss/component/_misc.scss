@@ -1,0 +1,44 @@
+/*
+ * Misc components
+ */
+
+.logo {
+  color: white;
+  width: 165px;
+}
+.navbar {
+  margin-top: 40px;
+}
+.video {
+  display: block;
+  margin-top: 9rem;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: bottom;
+  max-width: 100%;
+}
+.video-wrapper {
+  @include breakpoint(max-width $bs_md) {
+    padding: 0 5px;
+  }
+}
+hr {
+  border-width: 5px;
+  border-color: $gray;
+  margin: 50px 0;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.grey {
+  background-color: $gray;
+}
+
+.contact-form .lead {
+  width: 90%;
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,103 @@
+/**
+ * Request demo form
+ */
+
+.demo-form {
+}
+
+.demo-form__row {
+  transition: border 0.1s ease-in-out;
+  margin-bottom: 4px;
+  border: 2px solid white;
+}
+
+.demo-form__row.is-active {
+  border: 2px solid $blue_bright;
+}
+
+/* Center the submit button*/
+.demo-form__row:last-child {
+  text-align: center;
+  padding-top: 35px;
+  border: 0 none;
+}
+
+.demo-form label {
+  display: block;
+  margin: 0;
+  padding: 20px 20px 0;
+  background: #fff;
+  color: $bluish_gray;
+  text-transform: uppercase;
+  font-family: $sans-semibold;
+  font-size: 14px;
+}
+
+.demo-form__row.is-active label {
+  font-family: $sans-bold;
+  color: black;
+  font-weight: bold;
+}
+
+.demo-form label:hover {
+  cursor: text;
+}
+
+.demo-form input,
+.demo-form textarea {
+  margin: 0;
+  padding: 6px 20px 16px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 0;
+  color: $bluish_gray;
+  font-family:  $sans;
+  font-size: 18px;
+  outline: none;
+  vertical-align: bottom;
+}
+
+.demo-form button {
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  background: $blue_bright;
+  border: 0;
+  padding: 12px 0px 12px 20px;
+  font-family: FreightSansBold, Helvetica, sans-serif; // This is the only use of this font-family
+  font-size: 18px;
+  font-weight: bold;
+}
+.demo-form button:hover {
+  background: #185d87;
+}
+
+.demo-form .icon-arrow-right {
+  width: 62px;
+  height: 14px;
+}
+
+.demo-form__thanks {
+  text-align: center;
+}
+
+.demo-form__thanks p {
+  margin: 0 auto 50px;
+  max-width: 625px;
+}
+
+.demo-form__thanks-check {
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  background: $blue_bright;
+  border: 0;
+  padding: 12px 20px 12px 20px;
+  font-family: $sans-bold;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.demo-form__thanks-check img {
+  padding: 8px 0 10px 20px;
+}

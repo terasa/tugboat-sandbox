@@ -1,0 +1,73 @@
+/*
+ * Newsletter Singup
+ */
+
+.news-signup {
+  text-align: center;
+}
+
+.news-signup__row {
+  position: relative;
+  position: relative;
+  margin: 20px 0 0;
+}
+
+.news-signup label {
+  transition: opacity 0.1s ease-in-out;
+  position: absolute;
+  left: 118px;
+  top: 0;
+}
+
+.news-signup input[type="email"] {
+  display: inline;
+  border: 1px solid $gray;
+  width: 215px;
+  font-family: $sans-semibold;
+  font-size: 17px;
+  padding: 8px 10px 6px;
+  outline: 0 none;
+}
+
+.news-signup input[type="email"]:focus {
+  border-color: $orangish;
+}
+
+.news-signup ::-webkit-input-placeholder {
+  color: $dark_gray;
+  font-family:  $sans;
+}
+
+.news-signup :-moz-placeholder { /* Firefox 18- */
+  color: $dark_gray;
+  font-family:  $sans;
+}
+
+.news-signup ::-moz-placeholder {  /* Firefox 19+ */
+  color: $dark_gray;
+  font-family:  $sans;
+}
+
+.news-signup :-ms-input-placeholder {
+  color: $dark_gray;
+  font-family:  $sans;
+}
+
+.news-signup button {
+  display: inline;
+  background: $orangish;
+  border: 0;
+  margin: 0 0 0 -5px;
+  width: 45px;
+  padding: 7px 7px 6px 6px;
+}
+
+.news-signup .icon-arrow-right {
+  fill: white;
+  width: 20px;
+  height: 15px;
+}
+
+.contact {
+  text-align: center;
+}

@@ -1,0 +1,87 @@
+/*
+ * Typography
+ */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.8rem;
+  line-height: 1.75;
+  color: #0b1b23;
+  font-family:  $sans;
+  fill: currentColor;
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+  fill: currentColor;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $sans-bold;
+}
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.25;
+  margin: 7rem auto 2.25rem;
+  text-align: center;
+  color: white;
+  &.standard {
+    margin: 0 0 40px 0;
+    text-align: left;
+    color: black;
+  }
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.25;
+  margin: 3.5rem 0 1.5rem;
+}
+h3 {
+  font-size: 2rem;
+  margin: 3.5rem 0 1rem;
+  line-height: 1.5;
+}
+h4{
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h5 {
+  font-size: 1em;
+}
+p {
+  margin: 0 0 2rem;
+}
+ul {
+  .faq & {
+    margin: 2rem 0 0 2rem;
+  }
+}
+li {
+  .faq & {
+    margin: 1rem 0;
+  }
+}
+.lead {
+  font-family:  $sans-light;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+.lead.white {
+  color: white;
+}
+.call-to-action a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: $tan;
+  font-family: $sans-bold;
+}
+.call-to-action-small a {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: $tan;
+  font-family: $sans-bold;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+/*
+ * Footer
+ */
+
+.made-w-love,
+.maillist {
+  @include breakpoint(max-width $bs_sm) {
+    padding: 45px 30px;
+  }
+}
+.news {
+  margin: 22px 0 15px;
+}

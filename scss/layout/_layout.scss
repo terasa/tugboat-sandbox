@@ -1,0 +1,27 @@
+/**
+ * Base layouts
+ */
+
+.row-padded {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  @include breakpoint(max-width $bs_md) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.row-padded-small {
+  padding-top: 60px;
+  @include breakpoint(max-width $bs_md) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.wrap {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  max-width: 960px;
+}

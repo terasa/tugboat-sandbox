@@ -1,0 +1,25 @@
+/*
+ * FAQ
+ */
+
+.faq .content {
+  padding-bottom: 65px;
+  @include breakpoint($bs_md) {
+    padding-bottom: 145px;
+  }
+  ul {
+     margin: 2rem 0 0 2rem;
+  }
+  li {
+    margin: 1rem 0;
+    h3 {
+      display: inline;
+      &:after {
+        content: " - ";
+      }
+    }
+    p {
+      display: inline;
+    }
+  }
+}

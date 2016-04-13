@@ -1,0 +1,46 @@
+/*
+ * Pricing section
+ */
+
+.pricing {
+  @include breakpoint(max-width $bs_md) {
+    padding: 0 30px;
+  }
+}
+.price {
+  @include breakpoint(max-width $bs_md) {
+    text-align: center;
+    padding-right: 17px; // This is half the value of the dollar sign
+  }
+}
+hr.price {
+  border-color: $light_gray;
+  margin: 36px auto 20px auto;
+  width: 64%;
+  display: block;
+}
+.meta {
+  font-family: $sans-italic;
+  font-size: 1.9rem;
+  text-align: center;
+  @include breakpoint(max-width $bs_md) {
+    margin-bottom: 60px;
+  }
+}
+.number {
+  font-size: 9rem;
+  font-family: $sans-bold;
+  line-height: 0.5;
+  @include breakpoint($bs_sm $bs_md) {
+    font-size: 8rem;
+  }
+}
+.symbol {
+  font-size: 4rem;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 10px 0 0;
+  line-height: 0;
+  @include breakpoint($bs_sm $bs_md) {
+    padding: 0;
+  }
+}

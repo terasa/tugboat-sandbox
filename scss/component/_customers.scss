@@ -1,0 +1,62 @@
+/*
+ * Customers section
+ */
+
+.boat-device {
+  background-image: url("/images/boat-device.jpg");
+  width: 100%;
+  max-width: 1280px;
+  background-size: cover;
+}
+.logos {
+  max-width: 800px;
+}
+.client-logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cust-logo-wrapper {
+  padding: 20px 0;
+  &:nth-child(2n+1) {
+    clear: left;
+  }
+  @include breakpoint($bs_sm) {
+    &:nth-child(2n+1) {
+      clear: none;
+    }
+    &:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+  @include breakpoint($bs_md) {
+    padding: 60px 0 0 0;
+    &:nth-child(3n+1) {
+      clear: none;
+    }
+    &:nth-child(5n+1) {
+      clear: left;
+    }
+  }
+  @include breakpoint($bs_md) {
+    width: 20%;
+  }
+}
+.boat-device .lead {
+  font-family:  $sans-light;
+  font-size: 2.5rem;
+  max-width: 490px;
+  margin: 0 auto 25px auto;
+  @include breakpoint($bs_md) {
+    margin-bottom: 0;
+  }
+}
+.lead.white {
+  color: white;
+}
+.you {
+  font-size: 3rem;
+  font-family: $sans-bold;
+  color: white;
+  text-align: center;
+}

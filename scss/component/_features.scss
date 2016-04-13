@@ -1,0 +1,10 @@
+/*
+ * Features
+ */
+
+.feature {
+  @include breakpoint(max-width $bs_md) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
