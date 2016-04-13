@@ -7,5 +7,7 @@ pre-install:
 	sudo apt-get install -y nodejs
 
 tugboat-init: pre-install install
+	ln -sf . /var/www/html
+
 tugboat-update: install
 tugboat-build: install
