@@ -7,7 +7,7 @@ All you need to do to generate Tugboat instance is to create a [pull request](ht
 ## Quick start guide
 
 1. Click on the `index.html` file above
-![image](https://www.evernote.com/shard/s443/sh/abc1e846-725b-47e6-8306-dff51b20b8e2/736d9249e9d16ab2/res/d5347f5d-75c3-49c0-82f2-cc7100314971/skitch.png)
+![image](https://www.evernote.com/shard/s443/sh/a604375f-c2a2-4973-92a2-30759a1c25b9/beec85002b7939d6/res/b62b3544-24ac-477b-8e26-b4028fe37347/skitch.png)
 2. Click the **Edit** button on the top right of the code view.
 ![image](https://www.evernote.com/shard/s443/sh/d6ac42ca-dd92-4338-8efe-c1caa3d08651/584f7b978ec2693a/res/355ddb63-d989-4153-9d2b-f6a8281b4b6a/skitch.png)
 3. Scroll down to the header near *line 72*, and edit the text to say whatever you want!
