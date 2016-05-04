@@ -2,6 +2,10 @@
  * Pricing
  */
 
+.pricing-lead-in {
+  margin-bottom: 40px;
+}
+
 .pricing-table {
   @media (min-width: $price_switch) {
     display: flex;

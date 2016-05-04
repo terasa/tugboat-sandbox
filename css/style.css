@@ -70,6 +70,11 @@ h2 {
   font-size: 2.5rem;
   line-height: 1.25;
   margin: 3.5rem 0 1.5rem; }
+  h2.standard-centered {
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: black;
+    font-size: 3rem; }
 
 h3 {
   font-size: 2rem;
@@ -122,6 +127,9 @@ p {
   overflow: hidden;
   position: absolute !important;
   width: 1px; }
+
+.bold-emphasis {
+  font-family: FreightSansProBold, Helvetica, sans-serif; }
 
 /* generated with grunt-sass-globbing */
 /**
@@ -701,6 +709,9 @@ hr {
 /*
  * Pricing
  */
+.pricing-lead-in {
+  margin-bottom: 40px; }
+
 @media (min-width: 767px) {
   .pricing-table {
     display: -webkit-flex;
