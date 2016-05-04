@@ -51,4 +51,20 @@ $(document).ready(function() {
     .bind('focusout', function() {
       $(this).parent().removeClass('is-active');
     });
+
+
+  /**
+   * Pauses Vimeo video when the user closes the lightbox
+   */
+
+  var iframe = document.getElementById('video');
+
+  // $f == Froogaloop
+  var player = $f(iframe);
+
+  var pauseButton = document.getElementById("close-video-button");
+  pauseButton.addEventListener("click", function() {
+    player.api("pause");
+  });
+
 });
