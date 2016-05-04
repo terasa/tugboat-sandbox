@@ -6,12 +6,60 @@
   @include breakpoint(max-width $bs_md) {
     padding: 0 30px;
   }
+
   h2 {
     font-size: 3.5rem;
   }
+
   .lead {
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+.tugboat-intro {
+  text-shadow: 0 0 20px #000;
+  padding: 0 10px;
+}
+
+a.demo-link {
+  font-family: $sans-italic;
+  font-size: 2.3rem;
+  color: white;
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.demo-or {
+  @include breakpoint(max-width $bs_md) {
+    display: block;
+  }
+}
+
+a.video-link {
+  color: $white;
+  background: #1d538c;
+  display: inline-block;
+  margin: 34px 15px 40px 5px;
+  border-radius: 0;
+  border: 0 none;
+  font-weight: bold;
+  padding: 12px 23px;
+  transition: background 0.3s ease-in-out;
+
+  &:focus,
+  &:hover {
+    background: #163e69;
+    text-decoration: none;
+  }
+
+  .fa-play {
+    color: $tan;
+    margin-right: 10px;
+  }
+
+  @include breakpoint(max-width $bs_md) {
+    margin: 34px 15px 10px 5px;
   }
 }

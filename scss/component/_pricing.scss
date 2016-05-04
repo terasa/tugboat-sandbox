@@ -6,41 +6,92 @@
   @include breakpoint(max-width $bs_md) {
     padding: 0 30px;
   }
-}
-.price {
-  @include breakpoint(max-width $bs_md) {
-    text-align: center;
-    padding-right: 17px; // This is half the value of the dollar sign
+
+  @include breakpoint(min-width $bs_md) {
+    width: 960px;
   }
 }
+
+.price {
+  text-align: center;
+  padding-right: 17px; // This is half the value of the dollar sign
+
+  @include breakpoint(min-width $bs_sm) {
+    text-align: left;
+  }
+}
+
 hr.price {
   border-color: $light_gray;
   margin: 36px auto 20px auto;
   width: 64%;
   display: block;
 }
+
 .meta {
   font-family: $sans-italic;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   text-align: center;
-  @include breakpoint(max-width $bs_md) {
-    margin-bottom: 60px;
+  margin: 0 0 12px 26px;
+
+  @include breakpoint(min-width $bs_sm) {
+    text-align: left;
   }
+
 }
+
 .number {
-  font-size: 9rem;
+  font-size: 8rem;
   font-family: $sans-bold;
   line-height: 0.5;
+
   @include breakpoint($bs_sm $bs_md) {
     font-size: 8rem;
   }
 }
+
 .symbol {
   font-size: 4rem;
   font-family: 'Quicksand', sans-serif;
-  padding: 0 10px 0 0;
+  padding: 0 10px 0 16px;
   line-height: 0;
+
   @include breakpoint($bs_sm $bs_md) {
     padding: 0;
+  }
+}
+
+.price-button {
+  text-align: center;
+
+  @include breakpoint(min-width $bs_sm) {
+    text-align: left;
+  }
+}
+
+.btn-pricing {
+  display: inline-block;
+  margin: 34px 0 40px 5px;
+  background: #096fe0;
+  border-radius: 0;
+  border: 0 none;
+  font-family: FreightSansBold, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 12px 23px;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+
+  &:focus,
+  &:hover {
+    background: #286090;
+    text-decoration: none;
+  }
+}
+
+.price-grid {
+
+  @include breakpoint($bs_sm $bs_md) {
+    width: 50%;
+    height: 220px;
   }
 }

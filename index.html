@@ -57,12 +57,14 @@
       <div class="container">
         <div class="row navbar">
           <div class="col-xs-3">
-            <a href="index.html"><img class="logo" src="images/logo.svg"></a>
+            <a href="index.html"><img class="logo" src="images/logo.svg"><span class="accessible-hidden">Tugboat</span></a>
           </div>
-          <div class="col-xs-9">
+          <div class="col-xs-9 nav-items">
             <div class="pull-right">
+              <a class="nav-item nav-item-faq" href="pricing.html">Pricing</a>
               <a class="nav-item nav-item-faq" href="faq.html">FAQ</a>
-              <a class="nav-item nav-item-twitter" href="https://twitter.com/tugboatqa" target="_blank"> <span class="follow-text">Follow us on </span><i class="fa fa-twitter"></i></a>
+              <a class="nav-item nav-item-doc" href="https://docs.tugboat.qa">Documentation</a>
+              <a class="nav-item nav-item-twitter" href="https://twitter.com/tugboatqa" target="_blank"><i class="fa fa-twitter"></i><span class="accessible-hidden">Tugboat on Twitter</span></a>
             </div>
           </div>
         </div>
@@ -71,7 +73,19 @@
           <div class="col-md-10">
             <h1>Full-stack web environments for every branch of code.</h1>
             <div class="text-center call-to-action">
-              <a href="#demo">Schedule a demo <img class="arrow-down" src="images/arrow-down.png"> </a>
+              <a href="#demo-video" class="video-link"><i class="fa fa-play"></i><span class="accessible-hidden">Play video</span> See how it works</a>
+                <span class="demo-or">or</span>
+              <a href="#demo" class="demo-link">Schedule a demo</a>
+
+                <div class="lightbox" id="demo-video">
+                    <a class="close-video" href="#"><i class="fa fa-times-circle"></i> Close Video</a>
+                    <div class="videoWrapper">
+                        <iframe src="https://player.vimeo.com/video/165022680" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+
+                    <p class="tugboat-intro"><a href="https://vimeo.com/165022680">Introduction to Tugboat</a> from <a href="https://vimeo.com/lullabot">Lullabot</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                </div>
+
             </div>
           </div>
           <div class="col-md-1"></div>
@@ -202,16 +216,21 @@
     <div class="pricing container">
       <div class="row-padded">
         <div class="row">
-          <div class="col-xs-12 col-sm-3">
+          <div class="col-xs-12 col-sm-3 price-grid">
+          <div class="row price-leader">
+              <div class="meta">Monthly pricing starting at</div>
+              <!-- <hr class="price">-->
+            </div>
             <div class="price row">
-              <span class="symbol">$</span><span class="number">999</span>
+              <span class="symbol">$</span><span class="number">599</span>
             </div>
-            <hr class="price">
-            <div class="row">
-              <div class="meta">per month per site</div>
+
+            <div class="price-button">
+                <a href="pricing.html" class="btn-lg btn-pricing btn-primary">See pricing details</a>
             </div>
+
           </div>
-          <div class="col-xs-12 col-sm-3">
+          <div class="col-xs-12 col-sm-3 price-grid">
             <ul>
               <li>
                 <h5>Custom Installation</h5>
@@ -219,15 +238,15 @@
               </li>
             </ul>
           </div>
-          <div class="col-xs-12 col-sm-3">
+          <div class="col-xs-12 col-sm-3 price-grid">
             <ul>
               <li>
                 <h5>High Performance Servers</h5>
-                <p>Every Tugboat account comes with 192GB of SSD storage, 8GB of RAM and 6 CPU cores <a data-toggle="tooltip" data-toggle="tooltip" data-placement="top" data-toggle="tooltip" title="Need 96GB of RAM or 2TB of storage? We can do that with an additional fee.">(?)</a>.
+                <p>Every Tugboat account comes with 192GB of SSD storage, 8GB of RAM and 6 CPU cores <a href="#" data-toggle="tooltip" data-placement="top" title="Need 96GB of RAM or 2TB of storage? We can do that with an additional fee.">(?)</a>.
               </li>
             </ul>
           </div>
-          <div class="col-xs-12 col-sm-3">
+          <div class="col-xs-12 col-sm-3 price-grid">
             <ul>
               <li>
                 <h5>No Contracts, No Hidden Fees</h5>
@@ -251,7 +270,7 @@
           <div class="col-xs-12 col-sm-3">
              <ul>
               <li>
-                <p>Your code lives in a GitHub repository <a data-toggle="tooltip" data-toggle="tooltip" data-placement="top" data-toggle="tooltip" title="If you would like us to consider other repositories, or you’re interested in hosting Tugboat privately, please get in touch with us.">(?)</a>.</p>
+                <p>Your code lives in a GitHub or Bitbucket repository <a href="#" data-toggle="tooltip" data-placement="top" title="If you would like us to consider other repositories, or you’re interested in hosting Tugboat privately, please get in touch with us.">(?)</a>.</p>
               </li>
             </ul>
           </div>
