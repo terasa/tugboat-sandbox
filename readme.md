@@ -14,7 +14,7 @@ All you need to do to generate Tugboat instance is to create a [pull request](ht
 ![image](https://www.evernote.com/shard/s443/sh/d6ac42ca-dd92-4338-8efe-c1caa3d08651/584f7b978ec2693a/res/355ddb63-d989-4153-9d2b-f6a8281b4b6a/skitch.png)
 <br><br>
 
-3. Scroll down to the header near *line 72*, and edit the text to say whatever you want!
+3. Change whatever you want! We're editing the header near *line 72*.
 ![image](https://www.evernote.com/shard/s443/sh/e7e4cf4f-ff68-4008-9b11-1f91fd684313/77dc5501b5143b0b/res/fe42f56d-f2bf-4073-b7a9-197efa888dd9/skitch.png)
 <br><br>
 
