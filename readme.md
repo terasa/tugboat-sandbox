@@ -52,7 +52,7 @@ If you’re a developer who is familiar with pulling down repos and using git, *
 `git checkout -b your-branch-name-here`
 
 3. Change whatever you want!
-Have fun and change whatever you'd like. Make it your own, but please keep it clean. Our sandbox is public, so don't post anything you wouldn't want Grandma to see.
+Have fun and make it your own, but please keep it clean. Our sandbox is public, so don't post anything you wouldn't want Grandma to see.
 
 4. Push up your changes and create a pull request
 
