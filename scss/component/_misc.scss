@@ -29,7 +29,7 @@ hr {
 }
 
 .blue {
-  background-color: $blue;
+  background-color: #292929;
 }
 
 .grey {
@@ -41,4 +41,12 @@ hr {
   max-width: 660px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bats-row {
+  text-align: center;
+}
+
+.cute-bats {
+  border-radius: 5px 5px 0 0;
 }
