@@ -1,8 +1,8 @@
 # Welcome to the Tugboat Sandbox!
 
-## To generate a Tugboat instance
+## To generate a Tugboat Preview
 
-All you need to do to generate Tugboat instance is to create a [pull request](https://help.github.com/articles/using-pull-requests/).
+All you need to do to generate Tugboat Preview is to create a [pull request](https://help.github.com/articles/using-pull-requests/).
 
 ## Quick start guide
 
@@ -30,7 +30,7 @@ All you need to do to generate Tugboat instance is to create a [pull request](ht
 ![image](https://www.evernote.com/shard/s443/sh/89bd5453-5d52-4f8d-b283-af764e691f11/7b53464098a4686a/res/bd0ac8eb-a264-4235-b3cd-f7c17cfc7f2b/skitch.png)
 <br><br>
 
-7. Your pull request will be open. Wait about a minute, and *Tugbot* will comment with an automated build of your pull request. Click the link to be taken to that environment.
+7. Your pull request will be open. Wait about a minute, and *Tugboat* will comment with an automated build of your pull request. Click the link to be taken to that environment.
 ![image](https://www.evernote.com/shard/s443/sh/81274139-aa5f-43ee-ad50-1608fa145a18/a505f1181661ca44/res/6c143d39-2988-439d-8377-c2c0384ff332/skitch.png)
 <br><br>
 
