@@ -559,7 +559,7 @@ hr {
   margin: 50px 0; }
 
 .blue {
-  background-color: #2f88e3; }
+  background-color: #292929; }
 
 .grey {
   background-color: #f7f7f7; }
@@ -829,7 +829,7 @@ hr {
 .legend-item.empty {
   margin: 20px 0 0 0;
   padding: 10px 0;
-  background: #2f88e3;
+  background: #292929;
   color: white;
   font-weight: normal;
   font-size: 20px;
@@ -873,7 +873,7 @@ hr {
 
 .pricing-heading {
   margin-bottom: 30px;
-  color: #2f88e3;
+  color: #292929;
   font-size: 26px; }
 
 .pricing-question {
@@ -956,5 +956,13 @@ hr.price {
   .price-grid {
     width: 50%;
     height: 220px; } }
+
+.bats-row {
+  text-align: center;
+}
+
+.cute-bats {
+  border-radius: 5px 5px 0 0;
+}
 
 /* generated with grunt-sass-globbing */
