@@ -319,6 +319,34 @@ p {
   width: 100%;
   height: 100%; }
 
+.demo-container {
+  padding: 60px 0; }
+
+.github-demo {
+  width: 850px;
+  height: 1200px; }
+
+.easy {
+  font-family: FreightTextProBookItalic, Helvetica, sans-serif;
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 400; }
+
+.sandbox-demo-container {
+  padding-top: 40px; }
+  .sandbox-demo-container .demo-instructions {
+    font-size: 2.5rem; }
+  .sandbox-demo-container .lead {
+    font-size: 2.2rem; }
+  .sandbox-demo-container .fa-long-arrow-right {
+    vertical-align: middle; }
+
+.demo-icon {
+  padding-top: 45px;
+  text-align: right; }
+  .demo-icon img {
+    height: 45px; }
+
 /**
  * Request demo form
  */
@@ -594,6 +622,18 @@ hr {
   margin: 0 15px 0 0;
   padding: 0 15px;
   border-right: 1px solid rgba(255, 255, 255, 0.3); }
+  @media (max-width: 650px) {
+    .nav-item-doc {
+      display: none; } }
+
+.nav-item-doc--mobile {
+  margin: 0 15px 0 0;
+  padding: 0 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  display: none; }
+  @media (max-width: 650px) {
+    .nav-item-doc--mobile {
+      display: initial; } }
 
 .follow-text {
   display: none;
