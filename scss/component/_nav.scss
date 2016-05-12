@@ -29,6 +29,21 @@
   margin: 0 15px 0 0 ;
   padding: 0 15px;
   border-right: 1px solid rgba(255, 255, 255, .3);
+
+  @media (max-width: 650px) {
+    display: none;
+  }
+}
+
+.nav-item-doc--mobile {
+  margin: 0 15px 0 0 ;
+  padding: 0 15px;
+  border-right: 1px solid rgba(255, 255, 255, .3);
+  display: none;
+
+  @media (max-width: 650px) {
+    display: initial;
+  }
 }
 
 .follow-text {

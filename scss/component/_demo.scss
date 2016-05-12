@@ -1,0 +1,40 @@
+.demo-container {
+  padding: 60px 0;
+}
+
+.github-demo {
+  width: 850px;
+  height: 1200px;
+}
+
+.easy {
+  font-family: $sans-italic;
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 400;
+}
+
+.sandbox-demo-container {
+  padding-top: 40px;
+
+  .demo-instructions {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    font-size: 2.2rem;
+  }
+
+  .fa-long-arrow-right {
+    vertical-align: middle;
+  }
+}
+
+.demo-icon {
+  padding-top: 45px;
+  text-align: right;
+
+  img {
+    height: 45px;
+  }
+}
