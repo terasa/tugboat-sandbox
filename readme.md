@@ -2,7 +2,13 @@
 
 ## To generate a Tugboat Preview
 
-All you need to do to generate Tugboat Preview is to create a [pull request](https://help.github.com/articles/using-pull-requests/).
+All you need to do to generate a Tugboat Preview is to create a [pull request](https://help.github.com/articles/using-pull-requests/).
+
+We’ve got two easy routes that you can take: [Classic](https://github.com/TugboatQA/tugboat-sandbox/blob/master/readme.md#classic-guide) or [Quick Start](https://github.com/TugboatQA/tugboat-sandbox/blob/master/readme.md#quick-start-guide)
+
+If you’re just looking for a quick way to see Tugboat spin up a Preview, go with our *Quick Start*. You’ll be able to try Tugboat out without cloning the site or using Terminal.
+
+If you’re a developer who is familiar with pulling down repos and using git, *Classic* is probably a better fit for you. You’ll get the full Tugboat experience.
 
 ## Quick start guide
 
@@ -14,7 +20,7 @@ All you need to do to generate Tugboat Preview is to create a [pull request](htt
 ![image](https://www.evernote.com/shard/s443/sh/d6ac42ca-dd92-4338-8efe-c1caa3d08651/584f7b978ec2693a/res/355ddb63-d989-4153-9d2b-f6a8281b4b6a/skitch.png)
 <br><br>
 
-3. Change whatever you want! We're editing the header near *line 72*.
+3. Change whatever you want! We're editing the header, but you can be creative. Make it your own, but please keep it clean. Our sandbox is public, so don't post anything you wouldn't want Grandma to see.
 ![image](https://www.evernote.com/shard/s443/sh/e7e4cf4f-ff68-4008-9b11-1f91fd684313/77dc5501b5143b0b/res/fe42f56d-f2bf-4073-b7a9-197efa888dd9/skitch.png)
 <br><br>
 
@@ -36,3 +42,18 @@ All you need to do to generate Tugboat Preview is to create a [pull request](htt
 
 8. Tada!
 ![image](https://www.evernote.com/shard/s443/sh/20226f14-cf8f-4e99-8a1b-7d784df2e11e/a7f7947e9c5754cc/res/e623b0e8-6761-48be-90df-b23fc918ec66/skitch.png)
+
+
+## Classic guide
+1. Clone down the Tugboat Sandbox 
+`git clone git@github.com:TugboatQA/tugboat-sandbox.git`
+
+2. Create a new branch
+`git checkout -b your-branch-name-here`
+
+3. Change whatever you want!
+Have fun and make it your own, but please keep it clean. Our sandbox is public, so don't post anything you wouldn't want Grandma to see.
+
+4. Push up your changes and create a pull request
+
+5. Your pull request will be open. Wait about a minute, and *Tugboat* will comment with an automated build of your pull request. Click the link to be taken to that environment.
